@@ -1,0 +1,6 @@
+table{width: 250px; border: 1px solid #333; border-collapse: collapse; width: 30%;}
+table th, td{border: 1px solid #333;}
+.especial{background-color: #E6F3FF ;}
+table{font-family: Arial, Helvetica, sans-serif;}
+.pintado{background-color: #FFFFCC;}
+.cabecera {background-image: url("imagenes/fondo_gris.gif");}

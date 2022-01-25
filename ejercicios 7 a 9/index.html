@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPrimeraPagina</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+
+<body>
+    <!--Crear un archivo HTML y un archivo CSS, vamos a linkear el archivo CSS al archivo
+    HTML y vamos hacer lo mismo que el primer ejercicio, pero ahora la pagina va a
+    tener un color de fondo a elección, el encabezado H1 tiene que tener una fuente a
+    elección y estar centrado, lo mismo para el encabezado H2, y por ultimo los
+    párrafos deben tener un fuente a elección, deben tener un color a elección y deben
+    estar centrados a la izquierda. -->
+    <h1> Ejercicio 1</h1>
+    <br />
+    <p> <strong> Inciso A)</strong></p>
+    <hr>
+
+    <h2> Ejercicio 2</h2>
+    <br>
+    <P>seguimos con el ejercicio</p>
+    <br>
+    <hr>
+    <h2>Lista Ordenada</h2>
+    <ol type="A">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol> 
+    <hr> 
+
+    <h2> Ejercicio 3 </h2>
+    <!--Definir las reglas CSS que permiten mostrar los enlaces con los siguientes estilos:
+    • En su estado normal, los enlaces se muestran de color rojo #CC0000.
+    • Cuando el usuario pasa su ratón sobre el enlace, se muestra con un color de fondo
+    rojo #CC0000 y la letra de color blanco #FFF.
+    • Los enlaces visitados se muestran en color gris claro #CCC.-->
+    <p>Lista Anidada:</p>
+    <ul>
+        <li>Diarios Deportivos mas frecuentados</li>
+        <ol type="1">
+            <li><a href="https://www.ole.com.ar/" target="_blank">Ole</a></li>
+            <li><a href="https://argentina.as.com/" target="_blank">As</a></li>
+            <li><a href="https://www.tycsports.com/" target="_blank">TycSports</a></li>
+        </ol>
+        <li>Diarios Politicos mas frecuentados</li>
+        <ol>
+            <li><a href="https://www.perfil.com/" target="_blank">Perfil</a></li>
+            <li><a href="https://www.mdzol.com/" target="_blank">Mdz</a></li>
+        </ol>
+    </ul>
+    <hr>
+
+    <h2>Ejercicio 4</h2>
+    <!--. Para este apartado vamos a crear 2 listas:
+    1) Lista con viñetas con aspectos personalizados a elección.
+    2) Lista vertical con links a paginas a elección-->
+    <p>Recetas Papas Fritas Caseras:</p>
+    <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/06/papas-fritas-con-maicena-facil.jpg" width= 300 alt="foto receta" title="puedes agregarle cheddar">
+    <p><strong>Ingredientes:</strong></p>
+    <ul type="circle">
+        <li>4 papas</li>
+        <li>Aceite</li>
+        <li>Sal</li>
+    </ul>
+    <p><strong>Paso a paso:</strong></p>
+    <ul type="square">
+        <li>Pelar las papas</li>
+        <li>Cortarlas en baston</li>
+        <li>,etc</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+
+    <h2>Ejercicio 5</h2>
+    <br>
+    <h3>Plantel Actual Boca Juniors</h3>
+    <p>Temporada 2021/2022</p>
+    <img src="https://tntsports.com.ar/__export/1614112999209/sites/tntsports/img/2021/02/22/bombonera-boca-llena-repleta_crop1610223469574_crop1614045941572.jpg_1931902225.jpg" alt="estacio boca lleno" width= 800 title= "pura pasion">
+    <br>
+    <table border="2px" cellpadding="8px" cellspacing="1px">
+        <br>
+      <tr>
+          <th>Jugador</th>
+          <th>Fin de Contrato</th>
+      </tr>
+      <tr>
+          <td> Agustin Rossi</td>
+          <td>30/06/2024</td>
+      </tr>
+      <tr>
+          <td>Chelo Waigandt</td>
+          <td>30/06/2026</td>
+      </tr>
+      <tr>
+          <td>Marcos Rojo</td>
+          <td>30/06/2023</td>
+      </tr>
+      <tr>
+          <td>Agustin Almendra</td>
+          <td>30/12/2024</td>
+      </tr>
+      <tr>
+          <td valign="top">Cristian Pavon</td>
+          <td><strong>30/06/2021</strong></td>
+      </tr>
+      <tr>
+          <td colspan="2" align="center"><strong>VAMOS BOQUITA</strong></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <h2>Ejercicio 6</h2>
+    <br>
+    <h2>Registrar un usuario</h2>
+    <form action="/Formulario" method="POST">
+    <label for="nombre">Nombre del usuario</label> <br>
+    <input placeholder="Nombre" id="nombre" type="text" name="valorNombre"> <br>
+    <label for="pass">Contraseña del usuario</label> <br>
+    <input id="pass" type="password" name="valorPassword" > <br>
+    <label for="edad">Edad del usuario</label> <br>
+    <input placeholder="No vale restarse" id="edad" type="number" name="valorEdad"><br>
+    <label for="nacimiento">Fecha de nacimiento del usuario</label><br>
+    <input id="nacimiento" type="date" name="valorNacimiento"><br>
+
+    <label for="sexo">Sexo del Usuario</label><br>
+    <input id="hombre" type="radio" name="sexo" value="1"> 
+    <label for="hombre">Hombre</label>
+    <br>
+    <input id="mujer" type="radio" name="sexo" value="2">
+    <label for="mujer">Mujer</label>
+    <br>
+    <input id="queti" type="radio" name="sexo" value="3">
+    <label for="queti">Queti</label>
+    <br>
+    
+    <label for="macionalidad">Pais de nacimiento</label><br>
+    <select name="nacionalidad" id="nacionalidad">
+    <option>Argentina</option>
+    <option>Uruguay</option>
+    <!--PREGUNTAR QUE HACE ESE VALUE="QUETI"-->
+    <option value="Otro, no vale Brasil">Otro, no vale Brasil</option>
+    </select>
+    </form>
+
+</body>
+</html>

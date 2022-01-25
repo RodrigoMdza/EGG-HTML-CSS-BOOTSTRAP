@@ -1,0 +1,16 @@
+h1{color: green; font-size: 2em;}
+p.strong{color: red;}
+.destacado{color: orange;}
+h2{color: blue;}
+a{color: aqua;}
+em{color: #a52a2a;}
+.especial {color: violet;}
+table{width: 250px; border: 1px solid #000; border-collapse: collapse; width: 30%;}
+table th, td{border: 1px solid #000;}
+tfoot{color: red;}
+thead{color: orange;}
+td{color: green;}
+table.strong{color: greenyellow;}
+#adicional{color: gold;}
+#especial{color: gray;}
+th.especial{color: orange;}
